@@ -52,8 +52,8 @@ const Welcome = ({ projectsRef }) => {
 			<div className='h-fit lg:h-screen relative w-screen flex lg:items-center justify-evenly'>
 				<div className='flex flex-col items-center my-16 lg:mt-0 lg:items-start'>
 					<div className='mb-4'>
-						<p className='font-extrabold text-7xl mb-2 text-black'>Jonas</p>
-						<p className='font-extrabold text-7xl text-sky-900'>Hendel</p>
+						<p className='font-extrabold text-7xl text-center lg:text-left mb-2 text-black'>Jonas</p>
+						<p className='font-extrabold text-7xl text-center lg:text-left text-sky-900'>Hendel</p>
 					</div>
 					<div className='mb-10 '>
 						<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>Fullstack web developer</p>

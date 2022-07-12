@@ -1,10 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 import Modal from './ProjectModal';
 import useScrollLock from '../../utils/scrollLock';
+import useWindowDimensions from '../../utils/useWindowDimensions';
 
 const Projects = ({ projectsRef }) => {
+	const { width } = useWindowDimensions();
 	const projects = [
 		{
 			name: 'E-commerce site',
@@ -91,7 +94,7 @@ const Projects = ({ projectsRef }) => {
 			<div className='flex flex-col items-center justify-start w-10/12 min-h-1000px rounded-2xl'>
 				<div className='my-4 md:my-10 flex flex-col items-center'>
 					<h1 className='mb-2 text-2xl font-bold text-center md:text-5xl text-sky-900'>My Featured Projects</h1>
-					<p className='text-lg font-semibold text-zinc-400'>Click on project thumbnail for more information</p>
+					<p className='text-lg font-semibold text-center text-zinc-400'>Click on project thumbnail for more information</p>
 				</div>
 				<motion.div
 					variants={container}
@@ -106,11 +109,20 @@ const Projects = ({ projectsRef }) => {
 							onClick={(e) => {
 								setPos(e);
 							}}
-							className='flex items-center justify-center p-5 h-fit rounded-xl testClass'>
+							className='flex items-center justify-cente lg:p-5 mb-6 lg:mb-0 h-fit rounded-xl testClass'>
 							<div className='flex flex-col w-full'>
-								<div onClick={() => displayModal(project)} className='cursor-pointer hover:block p-2px '>
-									<motion.img whileHover={{ scale: 1.02 }} className='w-full h-auto rounded-xl customBorder' src={project.thumbnail} />
-								</div>
+								{width >= 500 ? (
+									<div onClick={() => displayModal(project)} className='cursor-pointer block hover:block p-2px '>
+										<motion.img whileHover={{ scale: 1.02 }} className='w-full h-auto rounded-xl customBorder' src={project.thumbnail} />
+									</div>
+								) : (
+									<Link href={project.url} className=''>
+										<a className='cursor-pointer p-2px '>
+											<motion.img whileHover={{ scale: 1.02 }} className='w-full h-auto rounded-xl customBorder' src={project.thumbnail} />
+										</a>
+									</Link>
+								)}
+
 								<p className='mt-2 text-xl font-semibold text-center text-zinc-700'>{project.name}</p>
 							</div>
 						</motion.div>
