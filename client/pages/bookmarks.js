@@ -8,11 +8,11 @@ const bookmarks = () => {
 	const techstack = [
 		{
 			name: 'TypeGraphQL',
-			image: './logos/TypeGraphQL.jpeg',
+			image: './logos/typegraphql.jpeg',
 		},
 		{
 			name: 'GraphQL',
-			image: './logos/Graphql.png',
+			image: './logos/graphql.png',
 		},
 		{
 			name: 'Apollo GraphQL',
