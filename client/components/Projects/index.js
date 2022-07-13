@@ -5,9 +5,21 @@ import Link from 'next/link';
 import Modal from './ProjectModal';
 import useScrollLock from '../../utils/scrollLock';
 import useWindowDimensions from '../../utils/useWindowDimensions';
+import { useRouter } from 'next/router';
 
 const Projects = ({ projectsRef }) => {
-	const { width } = useWindowDimensions();
+	const [showModal, setShowModal] = useState(true);
+	const { width, height } = useWindowDimensions();
+
+	useEffect(() => {
+		if (width <= 500 || height <= 700) {
+			setShowModal(false);
+		} else {
+			setShowModal(true);
+		}
+	}, [width, height]);
+
+	const router = useRouter();
 	const projects = [
 		{
 			name: 'E-commerce site',
@@ -72,22 +84,6 @@ const Projects = ({ projectsRef }) => {
 		// projectsRef.current.scrollIntoView({ block: 'center' });
 	};
 
-	const container = {
-		hidden: { rotate: 90 },
-		show: {
-			rotate: 0,
-			transition: {
-				staggerChildren: 0.1,
-				delayChildren: 0.3,
-			},
-		},
-	};
-
-	const itemA = {
-		hidden: { scale: 0, top: 100 },
-		show: { scale: 1, top: 30 },
-	};
-
 	return (
 		<div ref={projectsRef} className='flex items-center justify-center w-screen min-h-screen'>
 			{activeProject && <Modal pos={pos} setActiveProject={setActiveProject} project={activeProject} />}
@@ -96,38 +92,24 @@ const Projects = ({ projectsRef }) => {
 					<h1 className='mb-2 text-2xl font-bold text-center md:text-5xl text-sky-900'>My Featured Projects</h1>
 					<p className='text-lg font-semibold text-center text-zinc-400'>Click on project thumbnail for more information</p>
 				</div>
-				<motion.div
-					variants={container}
-					initial='hidden'
-					whileInView='show'
-					viewport={{ once: true }}
-					className='my-10 grid md:grid-cols-2 xl:grid-cols-3 gap-y-0 h-fit grid-w-row gap-0 justify-items-center'>
+				<div className='my-10 grid md:grid-cols-2 xl:grid-cols-3 gap-y-0 h-fit grid-w-row gap-0 justify-items-center'>
 					{projects.map((project, i) => (
-						<motion.div
-							variants={itemA}
+						<div
 							key={i}
 							onClick={(e) => {
 								setPos(e);
 							}}
 							className='flex items-center justify-cente lg:p-5 mb-6 lg:mb-0 h-fit rounded-xl testClass'>
 							<div className='flex flex-col w-full'>
-								{width >= 500 ? (
-									<div onClick={() => displayModal(project)} className='cursor-pointer block hover:block p-2px '>
-										<motion.img whileHover={{ scale: 1.02 }} className='w-full h-auto rounded-xl customBorder' src={project.thumbnail} />
-									</div>
-								) : (
-									<Link href={project.url} className=''>
-										<a className='cursor-pointer p-2px '>
-											<motion.img whileHover={{ scale: 1.02 }} className='w-full h-auto rounded-xl customBorder' src={project.thumbnail} />
-										</a>
-									</Link>
-								)}
+								<div onClick={() => (showModal ? displayModal(project) : router.push(project.url))} className='cursor-pointer block hover:block p-2px '>
+									<motion.img whileHover={{ scale: 1.02 }} className='w-full h-auto rounded-xl customBorder' src={project.thumbnail} />
+								</div>
 
 								<p className='mt-2 text-xl font-semibold text-center text-zinc-700'>{project.name}</p>
 							</div>
-						</motion.div>
+						</div>
 					))}
-				</motion.div>
+				</div>
 			</div>
 		</div>
 	);
