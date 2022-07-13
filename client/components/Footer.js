@@ -3,9 +3,9 @@ import { Phone, GitHub, AtSign, Twitter, MapPin } from 'react-feather';
 
 const Footer = () => {
 	return (
-		<div className='flex justify-center w-screen h-fit lg:h-28 bg-slate-800'>
+		<div className='flex col  justify-center w-screen h-fit lg:h-28 bg-slate-800'>
 			<div className='flex flex-col lg:flex-row items-center lg:w-5/6 h-full text-white font-md justify-evenly'>
-				<p className='my-4 lg:mb-0'>Jonas N. Hendel</p>
+				<p className='my-4 lg:mt-0 lg:mb-0'>Jonas N. Hendel</p>
 				<div className='flex mb-4 lg:mb-0'>
 					<MapPin className='mr-2' />
 					<p>Oslo, Norway</p>
