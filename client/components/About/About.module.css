@@ -22,7 +22,7 @@
 	height: fit-content;
 	/* background: linear-gradient(116.51deg, #f5fff7 -1.62%, #adf8ff 75.04%); */
 	/* box-shadow: 4px 4px 25px rgba(0, 50, 124, 0.1); */
-	background: #fafafa;
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
 	border-radius: 25px;
 	padding: 30px;
 	margin-bottom: 20px;
@@ -42,7 +42,7 @@
 .smallerCard {
 	width: 30%;
 	height: 100%;
-	background: #fafafa;
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
 	padding: 30px;
 	border-radius: 25px;
 	display: flex;
@@ -54,7 +54,7 @@
 .bc {
 	width: 70%;
 	height: 100%;
-	background: #fafafa;
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
 	padding: 30px;
 	border-radius: 25px;
 	display: flex;
@@ -120,7 +120,7 @@
 	height: 25%;
 	/* background: linear-gradient(117.31deg, #fff7f5 -2.38%, #ffade1 75.09%, #ffade1 75.09%); */
 	/* box-shadow: 4px 4px 25px rgba(145, 0, 113, 0.15); */
-	background: #fafafa;
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
 	padding: 20px;
 	margin-bottom: 20px;
 	border-radius: 25px;
@@ -134,7 +134,7 @@
 	height: 50%;
 	/* background: linear-gradient(117.31deg, #fff7f5 -2.38%, #ffade1 75.09%, #ffade1 75.09%); */
 	/* box-shadow: 4px 4px 25px rgba(145, 0, 113, 0.15); */
-	background: #fafafa;
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
 	padding: 20px;
 	margin-bottom: 20px;
 	border-radius: 25px;
@@ -148,7 +148,7 @@
 	height: 25%;
 	/* background: linear-gradient(117.31deg, #fff7f5 -2.38%, #ffade1 75.09%, #ffade1 75.09%); */
 	/* box-shadow: 4px 4px 25px rgba(145, 0, 113, 0.15); */
-	background: #fafafa;
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
 	padding: 20px;
 	border-radius: 25px;
 	display: flex;

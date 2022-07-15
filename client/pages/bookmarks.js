@@ -61,7 +61,7 @@ const bookmarks = () => {
 				<ProjectInfoHeader title={'Bookmarks'} techstack={techstack} />
 				<p className={styles.text}>
 					As the name suggests this is a bookmarking app that I am still working on. I often come across interesting resources online that I want to save for later. I have not yet found a
-					good cross-platform, frictionless solution with a good export feature for saving links. Another problem that I face is forgetting links I have bookmarked. The services will support
+					good cross-platform, frictionless solution with a good export feature for saving links. Another problem that I face is forgetting links I have bookmarked. The app will support
 					import and export, web/native app and extensions, notes, folders, and link rotting prevention.
 				</p>
 				<img className={styles.image} style={{ width: 900 }} src='./bm2.png' />

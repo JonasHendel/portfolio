@@ -42,7 +42,7 @@ const ProjectModal = ({ pos, project, setActiveProject }) => {
 							<h1 className='font-semibold text-xl'>{project.name}</h1>
 							<div className='flex mb-4 mt-3'>
 								{project.technologies.map((technology) => (
-									<div className='bg-slate-100 h-fit w-fit px-3 mr-2 text-sm text-center rounded-md border border-slate-400 text-slate-800'>
+									<div className='bg-indigo-100 h-fit w-fit px-3 mr-2 text-sm text-center rounded-md border border-indigo-400 text-indigo-800'>
 										<p>{technology}</p>
 									</div>
 								))}
