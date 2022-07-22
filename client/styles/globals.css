@@ -45,7 +45,11 @@ html {
 }
 
 .pinkYellowGradient:hover {
-	background: linear-gradient(122.92deg, #ff5cbe 4.6%, #ffc56fcc 146.73%);
+	background: linear-gradient(
+		122.92deg,
+		#ff5cbe 4.6%,
+		#ffc56fcc 146.73%
+	);
 }
 
 .pinkYellowGradient {
@@ -53,9 +57,36 @@ html {
 }
 
 .customShadow {
-	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06), 0px 0px 1px rgb(66, 71, 76, 0.32);
+	box-shadow: 0px 8px 48px #eeeeee,
+		0px 4px 8px rgb(66, 71, 76, 0.06),
+		0px 0px 1px rgb(66, 71, 76, 0.32);
 }
 
 .customBorder {
 	box-shadow: 0px 0px 2px rgb(66, 71, 76, 0.32);
+}
+
+.icon {
+	transition: transform 0.5s, margin-bottom 0.5s;
+	width: 48px;
+	height: 48px;
+	border: 2px #e2e8f0 solid;
+	box-shadow: 0 0 4px 1px #f2f2f2;
+	background: white;
+	margin: 8px;
+	border-radius: 10px;
+}
+
+.icon:active {
+	transform: scale(1.1) !important;
+	transition: transform 0.2s;
+}
+
+.dock {
+	display: flex;
+	transition: height 0.2s, width 0.2s;
+}
+
+.dock:hover {
+	transition: height 0.2s, width 0.2s;
 }
