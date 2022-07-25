@@ -72,9 +72,17 @@ const Icon = ({ item, index, hovered, setHovered }) => {
 		}
 	}, [hovered]);
 
+	const [show, setShow] = useState(false);
+
+	useEffect(() => {
+		if (width <= 400 && index >= 4) {
+			setShow(true);
+		} else setShow(false);
+	}, [width]);
+
 	return (
 		<motion.div
-			style={{ display: width <= 400 && index >= 4 && 'none' }}
+			style={{ display: show && 'none' }}
 			className='cursor-pointer flex flex-col justify-center items-center'
 			onMouseEnter={() => setHovered(index)}
 			onMouseLeave={() => setHovered()}
