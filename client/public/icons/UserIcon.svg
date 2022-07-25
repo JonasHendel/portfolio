@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1038" id="Filter" width="1038" x="-7" y="-7">
+<feDropShadow dx="0" dy="0" flood-color="#dbdbdb" flood-opacity="1" in="SourceGraphic" result="Shadow" stdDeviation="29.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="User-icon" vectornator:layerName="User icon">
+<path d="M249.091 67L774.909 67C875.475 67 957 148.525 957 249.091L957 774.909C957 875.475 875.475 957 774.909 957L249.091 957C148.525 957 67 875.475 67 774.909L67 249.091C67 148.525 148.525 67 249.091 67Z" fill="#ffffff" fill-rule="evenodd" filter="url(#Filter)" stroke="#e2e8f0" stroke-linecap="butt" stroke-linejoin="round" stroke-width="30" vectornator:shadowAngle="0" vectornator:shadowColor="#dbdbdb" vectornator:shadowOffset="0" vectornator:shadowOpacity="1" vectornator:shadowRadius="59"/>
+<path d="M512 559.532C741.967 559.532 742.759 739.941 742.759 739.941L281.241 739.941C281.241 739.941 282.033 559.532 512 559.532Z" fill="#0369A1" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M385.826 410.233C385.826 340.549 442.316 284.059 512 284.059C581.684 284.059 638.174 340.549 638.174 410.233C638.174 479.917 581.684 536.407 512 536.407C442.316 536.407 385.826 479.917 385.826 410.233Z" fill="#38BDF8" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>

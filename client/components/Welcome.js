@@ -49,47 +49,59 @@ const Welcome = ({ projectsRef }) => {
 
 	return (
 		<>
-			<div className='h-fit lg:h-screen relative w-screen flex lg:items-center justify-evenly'>
-				<div className='flex flex-col items-center my-16 lg:mt-0 lg:items-start'>
-					<div className='mb-4'>
-						<p className='font-extrabold text-7xl text-center lg:text-left mb-2 text-black'>Jonas</p>
-						<p className='font-extrabold text-7xl text-center lg:text-left text-sky-900'>Hendel</p>
-					</div>
-					<div className='mb-10 '>
-						<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>Fullstack web developer</p>
-						<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>based in Oslo.</p>
-					</div>
-					<a href={url} target='_blank' className='flex cursor-pointer items-center'>
-						<svg
-							style={{
-								width: 24,
-								height: 24,
-								borderRadius: 0,
-							}}>
-							<motion.path
+			<div className='h-fit lg:h-screen relative w-screen overflow-hidden flex lg:items-center justify-evenly'>
+				<div className='lg:w-2/5 flex justify-end'>
+					<div className='flex flex-col items-center my-16 lg:mt-0 lg:items-start'>
+						<div className='mb-10 lg:mb-4 '>
+							<p className='font-extrabold text-7xl text-center lg:text-left mb-2 text-black'>
+								Jonas
+							</p>
+							<p className='font-extrabold text-7xl text-center lg:text-left text-sky-800'>
+								Hendel
+							</p>
+						</div>
+						<div className='mb-10 '>
+							<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>
+								Fullstack web developer
+							</p>
+							<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>
+								based in Oslo.
+							</p>
+						</div>
+						<a href={url} target='_blank' className='flex cursor-pointer items-center'>
+							<svg
 								style={{
-									stroke: '#52525b',
-									strokeWidth: 2,
-									strokeLinecap: 'round',
-									fill: 'transparent',
+									width: 24,
+									height: 24,
+									borderRadius: 0,
 								}}
-								d='M15.4996 23.0653C15.4243 18.0447 16.0016 18.3278 14.5501 16.1381C21.9167 15.6331 22.0633 8.13324 19.5955 5.47522C20.1889 2.98603 19.581 2.1287 19.3475 1.58751C17.4825 1.68567 17.3058 2.19611 15.3818 3.15809C15.3818 3.15809 13.6719 2.70431 12 2.70431C10.3281 2.70431 8.69413 3.15809 8.69413 3.15809C6.77016 2.19611 6.59347 1.68567 4.7284 1.58751C4.49491 2.1287 3.88708 2.98603 4.48041 5.47522C2.01261 8.13324 2.15926 15.6331 9.52586 16.1381C8.07431 18.3278 8.65165 18.0447 8.57634 23.0653'
-								animate={controls}
-								variants={variants}
-							/>
-						</svg>
-						<p className='text-xl ml-2 text-zinc-600'>@jonashendel </p>
-					</a>
+							>
+								<motion.path
+									style={{
+										stroke: '#52525b',
+										strokeWidth: 2,
+										strokeLinecap: 'round',
+										fill: 'transparent',
+									}}
+									d='M15.4996 23.0653C15.4243 18.0447 16.0016 18.3278 14.5501 16.1381C21.9167 15.6331 22.0633 8.13324 19.5955 5.47522C20.1889 2.98603 19.581 2.1287 19.3475 1.58751C17.4825 1.68567 17.3058 2.19611 15.3818 3.15809C15.3818 3.15809 13.6719 2.70431 12 2.70431C10.3281 2.70431 8.69413 3.15809 8.69413 3.15809C6.77016 2.19611 6.59347 1.68567 4.7284 1.58751C4.49491 2.1287 3.88708 2.98603 4.48041 5.47522C2.01261 8.13324 2.15926 15.6331 9.52586 16.1381C8.07431 18.3278 8.65165 18.0447 8.57634 23.0653'
+									animate={controls}
+									variants={variants}
+								/>
+							</svg>
+							<p className='text-xl ml-2 text-zinc-600'>@jonashendel </p>
+						</a>
+					</div>
 				</div>
-				<div className='w-2/5 h-full hidden lg:block'>
+				<div className='w-3/5 justify-self-end h-full hidden lg:block'>
 					<CubicBezier />
 				</div>
-				<motion.div
+				{/* <motion.div
 					onClick={executeScroll}
 					whileTap={{ scale: 0.8, transition: { duration: 0.1 } }}
-					className='absolute hidden lg:block cursor-pointer ml-auto mr-auto left-0 right-0 w-8 bottom-20'>
+					className='absolute hidden lg:block cursor-pointer ml-auto mr-auto left-0 right-0 w-8 bottom-20'
+				>
 					<ArrowDown size={'auto'} />
-				</motion.div>
+				</motion.div> */}
 			</div>
 		</>
 	);

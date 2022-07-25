@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1038" id="Filter" width="1038" x="-7" y="-7">
+<feDropShadow dx="0" dy="0" flood-color="#dbdbdb" flood-opacity="1" in="SourceGraphic" result="Shadow" stdDeviation="29.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="User-icon" vectornator:layerName="User icon">
+<path d="M249.091 67L774.909 67C875.475 67 957 148.525 957 249.091L957 774.909C957 875.475 875.475 957 774.909 957L249.091 957C148.525 957 67 875.475 67 774.909L67 249.091C67 148.525 148.525 67 249.091 67Z" fill="#ffffff" fill-rule="evenodd" filter="url(#Filter)" stroke="#e2e8f0" stroke-linecap="butt" stroke-linejoin="round" stroke-width="30" vectornator:shadowAngle="0" vectornator:shadowColor="#dbdbdb" vectornator:shadowOffset="0" vectornator:shadowOpacity="1" vectornator:shadowRadius="59"/>
+<path d="M734.113 398.048C734.453 402.972 734.453 407.897 734.453 412.866C734.453 564.3 619.17 738.949 408.37 738.949L408.37 738.858C346.099 738.949 285.122 721.112 232.7 687.48C241.755 688.57 250.855 689.114 259.977 689.137C311.582 689.182 361.712 671.867 402.311 639.983C353.27 639.052 310.266 607.077 295.243 560.397C312.422 563.71 330.123 563.029 346.984 558.423C293.518 547.62 255.053 500.645 255.053 446.09C255.053 445.59 255.053 445.114 255.053 444.637C270.984 453.511 288.821 458.435 307.066 458.98C256.71 425.325 241.187 358.334 271.597 305.957C329.783 377.555 415.632 421.082 507.79 425.688C498.554 385.884 511.172 344.173 540.946 316.192C587.104 272.802 659.701 275.026 703.091 321.162C728.757 316.101 753.357 306.684 775.869 293.34C767.313 319.869 749.408 342.403 725.489 356.723C748.205 354.045 770.399 347.963 791.3 338.681C775.914 361.738 756.534 381.822 734.113 398.048Z" fill="#0369A1" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>

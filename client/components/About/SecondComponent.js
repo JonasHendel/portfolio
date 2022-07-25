@@ -29,11 +29,15 @@ const SecondComponent = () => {
 				transition={{ duration: 0.2 }}
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1, transition: { duration: 0.2, delay: 0.2 } }}
-				viewport={{ once: true }}>
+				viewport={{ once: true }}
+			>
 				<h2 className='text-2xl text-cyan-700 font-semibold'>What are my ambitions?</h2>
 				<p className='text-lg font-medium text-slate-700 leading-8'>
-					I wan't to get an even deeper understanding of ReactJS and how it works under the hood. Furthermore I aim to improve my knowledge around SQL databases. My ambition is to make more
-					projects like the meeting location calculator. Projects that are more math/science based and have a direct connection to the real world.
+					My ambition is always to get a deep understanding of whatever I do. Right now
+					that is web development and maths, but really, every aspect of developing and
+					computer science excites me. In the future I want to work on projects that have
+					a use case in the real world: A technical solution that makes life
+					easier/better.
 				</p>
 			</motion.div>
 			<motion.div
@@ -43,14 +47,21 @@ const SecondComponent = () => {
 				transition={{ duration: 0.2 }}
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1, transition: { duration: 0.2, delay: 0.4 } }}
-				viewport={{ once: true }}>
+				viewport={{ once: true }}
+			>
 				<h2 className='text-2xl text-cyan-700 font-semibold'>How do I learn to code?</h2>
 				<p className='text-lg font-medium text-slate-700 leading-8'>
-					I learn by reading texts and by watching videos. The latter really helped me and is still very useful when I want to learn a new topic. Seeing how another person does something and
-					copying it, helps me get an understanding/intuition for programming languages, frameworks and libraries. When I get more advanced in a certain area I switch over to texts. I have
-					found that most advanced knowledge is transmitted in blog articles or documentation. As I mentioned I always start out with a video tutorial to get introduced to the topic. From
-					there on I start using what I just learned in a project. Then I learn whenever I need to figure out how to do something. Occasionally I sit down and read the documentation to
-					further understand what is possible with the tool. I have found that this is the most important part of learning. Learning what is possible to do.
+					I learn by reading texts and by watching videos. The latter really helped me and
+					is still very useful when I want to learn a new topic. Seeing how another person
+					does something and copying it, helps me get an understanding/intuition for
+					programming languages, frameworks and libraries. When I get more advanced in a
+					certain area I switch over to texts. I have found that most advanced knowledge
+					is transmitted in blog articles or documentation. As I mentioned I always start
+					out with a video tutorial to get introduced to the topic. From there on I start
+					using what I just learned in a project. Then I learn whenever I need to figure
+					out how to do something. Occasionally I sit down and read the documentation to
+					further understand what is possible with the tool. I have found that this is the
+					most important part of learning. Learning what is possible to do.
 				</p>
 			</motion.div>
 		</div>

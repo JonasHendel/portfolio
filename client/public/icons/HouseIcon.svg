@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1038" id="Filter" width="1038" x="-7" y="-7">
+<feDropShadow dx="0" dy="0" flood-color="#dbdbdb" flood-opacity="1" in="SourceGraphic" result="Shadow" stdDeviation="29.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="House-Icon" vectornator:layerName="House Icon">
+<path d="M249.091 67L774.909 67C875.475 67 957 148.525 957 249.091L957 774.909C957 875.475 875.475 957 774.909 957L249.091 957C148.525 957 67 875.475 67 774.909L67 249.091C67 148.525 148.525 67 249.091 67Z" fill="#ffffff" fill-rule="evenodd" filter="url(#Filter)" stroke="#e2e8f0" stroke-linecap="butt" stroke-linejoin="round" stroke-width="30" vectornator:shadowAngle="0" vectornator:shadowColor="#dbdbdb" vectornator:shadowOffset="0" vectornator:shadowOpacity="1" vectornator:shadowRadius="59"/>
+<path d="M564.984 272.131L735.623 422.172C797.21 476.325 784.318 520.226 706.825 520.226L317.175 520.226C239.682 520.226 226.79 476.325 288.377 422.172L459.016 272.131C506.327 228.534 520.295 231.113 564.984 272.131Z" fill="#0369A1" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M328.618 404.4C304.854 404.4 285.564 423.662 285.564 447.426L285.564 740.597C285.564 764.361 304.854 783.623 328.618 783.623L436.319 783.623C447.619 783.787 452.967 770.549 452.967 764.519C452.967 758.49 452.967 639.137 452.967 639.137C452.967 627.16 460.937 617.444 470.767 617.444L547.669 617.444C557.5 617.444 565.469 627.16 565.469 639.137L565.469 761.096C565.35 774.963 568.918 783.618 584.721 783.623L695.409 783.623C719.172 783.623 738.435 764.361 738.435 740.597L738.435 447.426C738.435 423.662 719.173 404.4 695.409 404.4L328.618 404.4Z" fill="#0369A1" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M340.302 348.604L340.302 255.098C340.302 246.977 342.37 239.975 355.007 240.393L395.774 240.393C408.013 240.212 410.479 246.977 410.479 255.098L410.479 287.669C411.738 304.835 405.507 306.69 399.375 312.015L351.406 353.668C345.273 358.992 340.302 356.725 340.302 348.604Z" fill="#38BDF8" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>

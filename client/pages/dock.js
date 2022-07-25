@@ -25,6 +25,7 @@ const dock = () => {
 	];
 
 	const [hovered, setHovered] = useState();
+
 	return (
 		<div className='relative w-screen h-screen'>
 			<div className='absolute left-0 right-0 flex items-end justify-between h-16 ml-auto mr-auto customShadow w-fit bottom-6 rounded-2xl dock'>

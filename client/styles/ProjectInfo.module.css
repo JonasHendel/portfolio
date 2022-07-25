@@ -21,23 +21,35 @@
 	margin-bottom: 40px;
 }
 
+.aboutTitleSection {
+	border-bottom: 1px solid #e4e4e7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 40px 0 40px 0;
+	margin-bottom: 40px;
+}
+
 .titleSection h1 {
 	font-size: 30px;
 	font-weight: bold;
+	text-align: center;
 }
 
 .titleSection h2 {
-	margin-top: 5px;
+	margin-top: 0px;
 	font-size: 15px;
 	color: #71717a;
-	margin-bottom: 40px;
 }
 .logos {
 	width: 70%;
 	min-width: 320px;
+	/* display: flex;
 	flex-wrap: wrap;
-	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-evenly; */
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .logoCard {
@@ -112,4 +124,14 @@
 .return {
 	align-self: start;
 	color: #0369a1;
+	margin-bottom: 50px;
+}
+
+/* Redsign starts here */
+
+.projectImage {
+	max-width: 450px;
+	width: 100%;
+	border-radius: 15px;
+	border: 4px solid #e4e4e7;
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1038" id="Filter" width="1038" x="13" y="13">
+<feDropShadow dx="0" dy="0" flood-color="#dbdbdb" flood-opacity="1" in="SourceGraphic" result="Shadow" stdDeviation="29.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Folder-Icon" vectornator:layerName="Folder Icon">
+<path d="M269.091 87L794.909 87C895.475 87 977 168.525 977 269.091L977 794.909C977 895.475 895.475 977 794.909 977L269.091 977C168.525 977 87 895.475 87 794.909L87 269.091C87 168.525 168.525 87 269.091 87Z" fill="#ffffff" fill-rule="evenodd" filter="url(#Filter)" stroke="#e2e8f0" stroke-linecap="butt" stroke-linejoin="round" stroke-width="30" vectornator:shadowAngle="0" vectornator:shadowColor="#dbdbdb" vectornator:shadowOffset="0" vectornator:shadowOpacity="1" vectornator:shadowRadius="59"/>
+<path d="M294.237 312.631C267.189 312.631 250.871 331.948 250.871 360.151L250.871 685.057C250.871 713.26 272.801 736.132 299.849 736.132L717.342 736.132C744.39 736.132 766.292 713.26 766.292 685.057C766.292 685.057 766.292 460.983 766.292 432.035C766.292 403.087 751.899 375.425 718.694 375.425C685.49 375.425 515.273 377.627 515.273 377.627C515.273 377.627 489.007 378.26 479.703 358.379L457.717 323.292C446.115 308.043 424.617 311.568 404.828 311.568L294.237 312.631Z" fill="#0369A1" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M501.33 311.666L727.633 310.787C739.196 310.742 748.6 318.618 748.638 328.379L748.687 341.123C748.725 350.883 739.383 358.832 727.82 358.877L528.544 359.651C516.492 359.698 507.123 358.252 500.108 348.676L488.651 335.069C481.636 325.492 489.277 311.713 501.33 311.666Z" fill="#38BDF8" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>

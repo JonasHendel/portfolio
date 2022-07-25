@@ -7,8 +7,11 @@
 
 html,
 body {
-	font-family: 'Inter', sans-serif;
 	color: #27272a;
+}
+
+* {
+	font-family: 'Asap', sans-serif;
 }
 
 .bgImage {
@@ -21,7 +24,7 @@ body {
 }
 
 html {
-	scroll-behavior: smooth;
+	/* scroll-behavior: smooth; */
 }
 
 .testClass {
@@ -45,11 +48,7 @@ html {
 }
 
 .pinkYellowGradient:hover {
-	background: linear-gradient(
-		122.92deg,
-		#ff5cbe 4.6%,
-		#ffc56fcc 146.73%
-	);
+	background: linear-gradient(122.92deg, #ff5cbe 4.6%, #ffc56fcc 146.73%);
 }
 
 .pinkYellowGradient {
@@ -57,8 +56,7 @@ html {
 }
 
 .customShadow {
-	box-shadow: 0px 8px 48px #eeeeee,
-		0px 4px 8px rgb(66, 71, 76, 0.06),
+	box-shadow: 0px 8px 48px #eeeeee, 0px 4px 8px rgb(66, 71, 76, 0.06),
 		0px 0px 1px rgb(66, 71, 76, 0.32);
 }
 
@@ -70,16 +68,31 @@ html {
 	transition: transform 0.5s, margin-bottom 0.5s;
 	width: 48px;
 	height: 48px;
-	border: 2px #e2e8f0 solid;
-	box-shadow: 0 0 4px 1px #f2f2f2;
-	background: white;
+	/* border: 2px #e2e8f0 solid;
+	box-shadow: 0 0 4px 1px #f2f2f2; */
+	/* background: white; */
 	margin: 8px;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 }
 
 .icon:active {
 	transform: scale(1.1) !important;
 	transition: transform 0.2s;
+}
+
+.iconTitle {
+	font-weight: semibold;
+}
+
+.iconTitleContainer {
+	display: flex;
+	justify-content: center;
+	padding: 2px 7px;
+	background: rgba(255, 255, 255);
+	border-radius: 8px;
+	box-shadow: 0 0 4px 1px rgb(213, 213, 213);
+
+	/* backdrop-filter: blur(10px); */
 }
 
 .dock {
