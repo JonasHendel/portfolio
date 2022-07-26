@@ -10,12 +10,14 @@ const about = () => {
 						About <span className='text-sky-900'>Me</span>
 					</h1>
 					<div className=''>
-						<div className='mt-5 bg-sky-100 p-2 flex border border-sky-800 rounded-xl cursor-pointer'>
-							<img src='./profile_picture.png' className='w-24 rounded-lg' />
-							{/* <div className='text-sm'>
+						<div className='mt-5 bg-sky-100 pl-2 py-2 pr-2 xs:pr-4 flex flex-col xs:flex-row items-center border border-sky-800 rounded-xl'>
+							<img src='./profile_picture.png' className='w-24 xs:mr-4 rounded-lg' />
+							<div className='text-sm flex items-center xs:items-start flex-col justify-evenly  '>
 								<p className='text-sky-800 font-bold text-lg'>Jonas Hendel</p>
-								<p className='text-sky-300'>jonasnhendel@gmail.com</p>
-							</div> */}
+								<p className='text-sky-500'>Oslo, Norway</p>
+								<p className='text-sky-500'>+47 913 86 515</p>
+								<p className='text-sky-500'>jonasnhendel@gmail.com</p>
+							</div>
 						</div>
 					</div>
 				</div>

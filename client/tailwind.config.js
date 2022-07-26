@@ -15,6 +15,9 @@ module.exports = {
 			padding: {
 				'2px': '2px',
 			},
+			screens: {
+				xs: '334px',
+			},
 			fontFamily: {
 				'sans-serif': ['Inter'],
 			},
