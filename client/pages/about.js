@@ -20,16 +20,17 @@ const about = () => {
 					</div>
 				</div>
 				<p className={styles.text}>
-					Hey, my name is Jonas and I have been writing code for about 2 years now. Most
-					of my life I have lived in Oslo but I also have strong connections to Germany
-					due to being born and having family there. My development journey started out
-					with Python but I soon found my way to web development. I think a beautiful
-					UI/UX is essential for a good program. Therfore I also enjoy this part of making
-					a website. Other than learning computer related things, I find joy in learning
+					My name is Jonas and I have been writing code for about 2 years now. For most of
+					my life I have lived in Oslo but I also have strong connections to Germany due
+					to being born and having family there. My development journey started out with
+					Python but I soon found my way to web development. I think a beautiful UI/UX is
+					essential for a good program. Therefore I also enjoy this part of making a
+					website. Other than learning computer-related things, I find joy in learning
 					both maths and physics. What interests me about these two subjects is their
 					ability to describe the world and accelerate the advancement of humanity. What
-					also is great about them, is how good they can be combinated with computer
-					science. Other than to code I like to kickbox, workout and read in my freetime.
+					also is great about them, is how good they can be combined with computer
+					science. Other than to code I like to kickbox, workout, and read in my free
+					time.
 				</p>
 				<h3 className={styles.heading}>What are my ambitions?</h3>
 				<p className={styles.text}>
