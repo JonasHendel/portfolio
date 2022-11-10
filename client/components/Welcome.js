@@ -49,26 +49,26 @@ const Welcome = ({ projectsRef }) => {
 
 	return (
 		<>
-			<div className='h-fit lg:h-screen relative w-screen overflow-hidden flex lg:items-center justify-evenly'>
-				<div className='lg:w-2/5 flex justify-end'>
+			<div className='relative flex w-screen overflow-hidden h-fit lg:h-screen lg:items-center justify-evenly'>
+				<div className='flex justify-end lg:w-2/5'>
 					<div className='flex flex-col items-center my-16 lg:mt-0 lg:items-start'>
 						<div className='mb-10 lg:mb-4 '>
-							<p className='font-extrabold text-7xl text-center lg:text-left mb-2 text-black'>
+							<p className='mb-2 font-extrabold text-center text-black text-7xl lg:text-left'>
 								Jonas
 							</p>
-							<p className='font-extrabold text-7xl text-center lg:text-left text-sky-800'>
+							<p className='font-extrabold text-center text-7xl lg:text-left text-sky-800'>
 								Hendel
 							</p>
 						</div>
 						<div className='mb-10 '>
-							<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>
-								Fullstack web developer
+							<p className='mb-2 text-3xl font-light text-center lg:text-left text-zinc-600 '>
+                Fullstack web developer at <a className="underline" href="https://www.intellectuallabs.no/" target="_blank">ilabs</a>
 							</p>
-							<p className='text-3xl text-center lg:text-left font-light mb-2 text-zinc-600 '>
-								based in Oslo.
-							</p>
+							<p className='mb-2 text-3xl font-light text-center lg:text-left text-zinc-600 '>
+                studying CS at TUM.
+              </p>
 						</div>
-						<a href={url} target='_blank' className='flex cursor-pointer items-center'>
+						<a href={url} target='_blank' className='flex items-center cursor-pointer'>
 							<svg
 								style={{
 									width: 24,
@@ -88,17 +88,17 @@ const Welcome = ({ projectsRef }) => {
 									variants={variants}
 								/>
 							</svg>
-							<p className='text-xl ml-2 text-zinc-600'>@jonashendel </p>
+							<p className='ml-2 text-xl text-zinc-600'>@jonashendel </p>
 						</a>
 					</div>
 				</div>
-				<div className='w-3/5 justify-self-end h-full hidden lg:block'>
+				<div className='hidden w-3/5 h-full justify-self-end lg:block'>
 					<CubicBezier />
 				</div>
 				{/* <motion.div
 					onClick={executeScroll}
 					whileTap={{ scale: 0.8, transition: { duration: 0.1 } }}
-					className='absolute hidden lg:block cursor-pointer ml-auto mr-auto left-0 right-0 w-8 bottom-20'
+					className='absolute left-0 right-0 hidden w-8 ml-auto mr-auto cursor-pointer lg:block bottom-20'
 				>
 					<ArrowDown size={'auto'} />
 				</motion.div> */}
